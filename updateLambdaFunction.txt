@@ -1,0 +1,28 @@
+def CreateNetwork(intent, session):
+    session_attributes = {}
+    reprompt_text = None
+    Serial = ''
+    Net_Type = 'wireless switch appliance'
+    Net_Tags = 'Alexa API'
+    Net_TZ = 'America/Cancun'
+    
+    Template = meraki.gettemplates(API_KEY,KIT_ORG)
+    TemplateId = Template[0]['id']
+    
+    # Create Network
+    Net_Name = 'Oficina Remota ' + datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
+    Net_Answer = meraki.addnetwork(API_KEY, KIT_ORG, Net_Name, Net_Type, Net_Tags , Net_TZ)
+    NetworkId = Net_Answer['id']
+    
+    # Bind Network to Template
+    BindNetwork = meraki.bindtotemplate(API_KEY, NetworkId, TemplateId)
+    
+    # Add devices to Network
+    meraki.adddevtonet(API_KEY, NetworkId, Serial)
+    speech_output = 'Ready, Please connect the devices to the network and start using the Services'
+
+
+
+
+elif intent_name == "GetLicenseStatus":
+        return get_license_status(intent, session)

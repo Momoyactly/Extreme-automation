@@ -1,0 +1,9 @@
+{
+                    "name": "CreateNetwork",
+                    "slots": [],
+                    "samples": [
+                        "Create network",
+                        "Create new network",
+                        "Create a new network "
+                    ]
+ },
