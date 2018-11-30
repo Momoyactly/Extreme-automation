@@ -1,0 +1,261 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "meraki",
+            "intents": [
+                {
+                    "name": "WhoAreYou",
+                    "slots": [],
+                    "samples": [
+                        "who are you",
+                        "what are you",
+                        "who is meraki",
+                        "what is meraki"
+                    ]
+                },
+                {
+                    "name": "GetLicenseStatus",
+                    "slots": [],
+                    "samples": [
+                        "get license",
+                        "get license state",
+                        "get license status",
+                        "get license expiration",
+                        "check license",
+                        "check license state",
+                        "check license status",
+                        "check license expiration",
+                        "get licensing",
+                        "get licensing state",
+                        "get licensing status",
+                        "get licensing expiration",
+                        "check licensing",
+                        "check licensing state",
+                        "check licensing status",
+                        "check licensing expiration",
+                        "query license",
+                        "query license state",
+                        "query license status",
+                        "query license expiration",
+                        "query licensing",
+                        "query licensing state",
+                        "query licensing status",
+                        "query licensing expiration",
+                        "when does my dashboard expire",
+                        "when does my license expire",
+                        "when does my licensing expire",
+                        "when is my license good through",
+                        "when is my licensing good through",
+                        "what is my license expiration",
+                        "what is my license expiration date",
+                        "how long until my license is due",
+                        "how long until my license expires",
+                        "how long until I have to pay",
+                        "how long until I have to pay Meraki"
+                    ]
+                },
+                {
+                    "name": "WhyInternetSlow",
+                    "slots": [],
+                    "samples": [
+                        "why internet slow",
+                        "why internet so slow",
+                        "why is the internet slow",
+                        "why the internet is slow",
+                        "why's the internet slow",
+                        "why is the internet so slow",
+                        "why the internet is so slow",
+                        "why's the internet so slow",
+                        "what's going on with the network",
+                        "what's going on with my network",
+                        "what is going on with the network",
+                        "what is going on with my network"
+                    ]
+                },
+                {
+                    "name": "BlockMaxUser",
+                    "slots": [],
+                    "samples": [
+                        "block max user",
+                        "block max client",
+                        "block max device",
+                        "block top user",
+                        "block top client",
+                        "block top device",
+                        "block top talker",
+                        "block the bandwidth hog",
+                        "block the max user",
+                        "block the max client",
+                        "block the max device",
+                        "block the top user",
+                        "block the top client",
+                        "block the top device",
+                        "block the top talker",
+                        "block shay from streaming video",
+                        "block shay from video streaming",
+                        "block shay from playing videos",
+                        "block shay from fantasy football",
+                        "block shay from using fantasy football",
+                        "block shay from accessing fantasy football",
+                        "block shay from playing fantasy football",
+                        "block all fantasy football for shay"
+                    ]
+                },
+                {
+                    "name": "DeleteAllNetworks",
+                    "slots": [],
+                    "samples": [
+                        "delete all networks",
+                        "delete all my networks",
+                        "delete everything",
+                        "delete my dashboard",
+                        "delete my entire dashboard",
+                        "delete the entire dashboard",
+                        "reset all networks",
+                        "reset everything",
+                        "reset my dashboard",
+                        "reset my entire dashboard",
+                        "reset the entire dashboard",
+                        "i've had enough of this",
+                        "i have had enough of this",
+                        "i'm done with this"
+                    ]
+                },
+                {
+                    "name": "GetNetworkStatus",
+                    "slots": [],
+                    "samples": [
+                        "get network status",
+                        "check network status",
+                        "query network status",
+                        "get the network status",
+                        "check the network status",
+                        "query the network status",
+                        "get status of the network",
+                        "check status of the network",
+                        "query status of the network",
+                        "get how the network is doing",
+                        "check how the network is doing",
+                        "query how the network is doing",
+                        "see how the network is doing",
+                        "get how is the network doing",
+                        "check how is the network doing",
+                        "query how is the network doing",
+                        "see how is the network doing"
+                    ]
+                },
+                {
+                    "name": "GetDeviceStatus",
+                    "slots": [],
+                    "samples": [
+                        "get device status",
+                        "check device status",
+                        "query device status",
+                        "get status of the device",
+                        "check status of the device",
+                        "query status of the device",
+                        "get how the device is doing",
+                        "check how the device is doing",
+                        "query how the device is doing",
+                        "see how the device is doing",
+                        "get how is the device doing",
+                        "check how is the device doing",
+                        "query how is the device doing",
+                        "see how is the device doing"
+                    ]
+                },
+                {
+                    "name": "GetClientDevices",
+                    "slots": [],
+                    "samples": [
+                        "get clients",
+                        "check clients",
+                        "query clients",
+                        "get client devices",
+                        "check client devices",
+                        "query client devices",
+                        "how many clients are connected",
+                        "how many clients are currently connected",
+                        "how many clients are online",
+                        "how many clients are currently online",
+                        "how many devices are connected",
+                        "how many devices are currently connected",
+                        "how many devices are online",
+                        "how many devices are currently online",
+                        "how many client devices are connected",
+                        "how many client devices are currently connected",
+                        "how many client devices are online",
+                        "how many client devices are currently online",
+                        "what is connected",
+                        "what is currently connected",
+                        "what is online",
+                        "what is currently online",
+                        "who is connected",
+                        "who is currently connected",
+                        "who is online",
+                        "who is currently online"
+                    ]
+                },
+                {
+                    "name": "WarnUserDevice",
+                    "slots": [],
+                    "samples": [
+                        "warn the user",
+                        "warn the user device",
+                        "warn the user too",
+                        "warn the user device too",
+                        "warn the user on their device",
+                        "warn the user on their device too",
+                        "give the user a visual warning"
+                    ]
+                },
+                {
+                    "name": "GetRoadmap",
+                    "slots": [],
+                    "samples": [
+                        "get roadmap",
+                        "get the roadmap",
+                        "what's the roadmap",
+                        "what's on the roadmap",
+                        "what is the roadmap",
+                        "what is on the roadmap",
+                        "check roadmap",
+                        "check the roadmap",
+                        "what's coming",
+                        "what is coming",
+                        "what's coming on the roadmap",
+                        "what is coming on the roadmap",
+                        "what's coming in the future",
+                        "what is coming in the future"
+                    ]
+                },
+                {
+                    "name": "FinishLab",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
